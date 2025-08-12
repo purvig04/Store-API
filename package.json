@@ -1,6 +1,8 @@
 {
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "express-async-errors": "^3.1.1",
     "mongodb": "^6.18.0",
     "mongoose": "^8.17.1",
     "nodemon": "^3.1.10"
@@ -9,8 +11,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
